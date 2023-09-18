@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import "./index.css";
+import StartButton from "./StartButton.js";
+import Title from "./Title.js";
+import GameDisplay from "./GameDisplay.js";
+import Footer from "./Footer.js";
 
 function App() {
+  const [startGame, setStartGame] = useState(false);
+
+  const handleButtonClick = () => {
+    setStartGame(true);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header className="header-data">
+        <Title />
+        <section>
+          <div className="lines-data">
+            <div className="line-left-data"></div>
+            <div className="line-right-data"></div>
+          </div>
+        </section>
       </header>
-    </div>
+      <div className="black-box-data">
+      {!startGame && (
+          <>
+            <img src={require("./images/narutoFront.png")} alt="Naruto" className="naruto-start-screen-data"/>
+            <img src={require("./images/minatoFront.png")} alt="Minato" className="minato-start-screen-data"/>
+          </>
+        )}
+        {!startGame && <StartButton onClick={handleButtonClick} />}
+        {startGame && <GameDisplay />}
+      </div>
+      <Footer />
+    </>
   );
 }
 

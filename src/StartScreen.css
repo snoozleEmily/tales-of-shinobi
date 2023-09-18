@@ -1,0 +1,71 @@
+@import url(./index.css);
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes hover-pulse {
+  0% {
+    font-size: 24px;
+  }
+  100% {
+    font-size: 30px;
+  }
+}
+.btn-container-data{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s;
+  }
+  .startbtn-data {
+    animation: heartbeat 2.5s infinite;
+    transition: font-size 0.3s ease, transform 0.3s ease;
+  
+    white-space: nowrap;
+    padding: 10px 60px;
+    border: none;
+    outline: none;
+  
+    font-family:"NinjaFighter";
+    font-size: 24px;
+    color: var(--secondary-heading-text);
+    background-color: var(--primary-btn);
+  }
+  .startbtn-data:active,
+  .startbtn-data:focus {
+  transform: scale(0.80); 
+  }
+  .startbtn-data:hover {
+    font-size: 30px;
+    letter-spacing: 1px;
+    animation: hover-pulse 0.3s ease;
+  }
+  .minato-start-screen-data{
+    width: 49%;
+    position: absolute;
+    top: 46.5px;
+    left: -131.5px;
+    pointer-events: none;
+  }
+  .naruto-start-screen-data{
+    width: 40%;
+    position: absolute;
+    top: 66px;
+    right: -133px;
+    pointer-events: none;
+  }

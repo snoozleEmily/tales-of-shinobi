@@ -1,13 +1,37 @@
-body {
+:root {
+  --primary-background: #efe8d8;
+  --primary-box: #00000096;
+  --secondary-box: #33281fbd;
+  --primary-paragraph-text: #ffffff;
+  --primary-heading-text: #ff4500;
+  --secondary-heading-text: #000000;
+  --primary-btn: #00000000; 
+}
+@font-face {
+  font-family: "njnaruto";
+  src: url("./fonts/njnaruto.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NinjaFighter";
+  src: url("./fonts/NinjaFighter.ttf") format("truetype");
+}
+html, body, button, .header-data {
+  cursor: url('./images/cursor/kunai-cursor.png'), auto;  
+}
+html, body {
   margin: 0;
+  user-select: none;
+  
+  background-image: url("../public/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-color: var(--primary-background);
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Tales Of Shinobi - A Naruto-Multi-Verse-Based RPG 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Tales Of Shinobi, an exciting role-playing game set in the world of Naruto. Immerse yourself in the ninja universe, complete challenging missions, and build your own legacy as a formidable shinobi.
 
-## Available Scripts
+Made by fans, for fans!
+The game is still in development.
 
-In the project directory, you can run:
+## Table of Contents
+- [About the Game](#about-the-game)
+- [Game Features](#game-features)
+- [Game Manual](#how-to-play)
+- [Contributing](#contributing)
+- [Roadmap](#roadmap)
+- [Contact Information](#contact-information)
+- [Authors](#authors)
+- [License](#license)
 
-### `npm start`
+## About the Game
+Tales Of Shinobi is a virtual single-player RPG that takes you on a journey throughout Naruto's world. Choose your path, and experience epic adventures in this immersive game. Whether you want to follow in the footsteps of your favorite ninja or forge your destiny, become hokage, or enter the akatsuki, the choice is yours.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Game Features
+- **Customize Your Ninja**: Customize your own ninja character, including clan, abilities, and special jutsus. The storyline changes according to your choices!
+- **Epic Missions**: Embark on challenging missions, face powerful foes, and uncover the secrets of the Naruto world.
+- **Interactive Storyline**: Experience a rich narrative with choices that impact your character's development and the game's outcome.
+- **Training and Battles**: Train your ninja to increase their skills.
+- **New fan-based stories**: Explore the vast Naruto world, from hidden villages to dangerous wilderness areas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Play
+For instructions on how to play the game and navigate its features, refer to the [Game Manual](docs/manual.md).
 
-### `npm test`
+## Contributing
+We welcome contributions from the community! If you'd like to contribute to the development of Tales Of Shinobi, please read our [Contribution Guidelines](docs/contributing.md).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Roadmap
+We plan to add new features, such as translation for other languages, the possibility for further customization of the character, dark mode option, update the documentation, more ending possibilities, new stories, and explore numerous theories about the Naruto universe.
 
-### `npm run build`
+## Contact Information
+Discord server - will be created.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Authors
+- snoozleEmily - Lead Developer and creator - Tales Of Shinobi.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License.
