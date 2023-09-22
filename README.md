@@ -16,7 +16,7 @@ The game is still in development.
 - [License](#license)
 
 ## About the Game
-Tales Of Shinobi is a virtual single-player RPG that takes you on a journey throughout Naruto's world. Choose your path, and experience epic adventures in this immersive game. Whether you want to follow in the footsteps of your favorite ninja or forge your destiny, become hokage, or enter the akatsuki, the choice is yours.
+Tales Of Shinobi is a virtual single-player, text-based RPG that takes you on a journey throughout Naruto's world. Choose your path and experience epic adventures in this immersive game. Whether you want to follow in the footsteps of your favorite ninja, forge your own destiny, become Hokage, or join the Akatsuki, the choice is yours.
 
 ## Game Features
 - **Customize Your Ninja**: Customize your own ninja character, including clan, abilities, and special jutsus. The storyline changes according to your choices!
