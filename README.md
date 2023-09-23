@@ -35,7 +35,7 @@ We welcome contributions from the community! If you'd like to contribute to the 
 We plan to add new features, such as translation for other languages, the possibility for further customization of the character, dark mode option, update the documentation, more ending possibilities, new stories, and explore numerous theories about the Naruto universe.
 
 ## Contact Information
-Discord server - will be created.
+Discord server - it will be created.
 
 ## Authors
 - snoozleEmily - Lead Developer and creator - Tales Of Shinobi.
