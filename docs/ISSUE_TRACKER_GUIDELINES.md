@@ -64,7 +64,7 @@ Welcome to the Issue Tracker for Tales Of Shinobi! Our issue tracker is a valuab
 
 ## Contributing Code
 
-If you plan to contribute code to fix an issue or add a feature, please review our [Contribution Guidelines](docs/contributing.md) for details on our development and coding standards.
+If you plan to contribute code to fix an issue or add a feature, please review our [Contribution Guidelines](contributing.md) for details on our development and coding standards.
 
 ## Our Pledge
 
